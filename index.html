@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ellie Epp · Research</title>
+<meta name="description" content="Ellie Epp studies how large language models fail once they leave the benchmark: sycophancy by design, accessible alignment, and LLM risk in regulated domains, using the HXO and AXO methodology.">
+<meta name="author" content="Ellie Epp">
+<meta property="og:title" content="Ellie Epp · Research">
+<meta property="og:description" content="AI alignment, accessibility and HCI research. Where HXO and AXO experiences collide.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/prof_pic.jpg">
+<meta name="theme-color" content="#0C1B33">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<canvas id="living-bg" aria-hidden="true" data-orient="vertical" data-anchor="#top aside h2" data-offset="-12"></canvas>
+<button class="motion" id="motion-toggle" type="button" aria-pressed="false">Pause motion</button>
+
+<header class="top gutter"><div class="wrap">
+  <a class="brand" href="#top">Ellie Epp</a>
+  <nav aria-label="Primary"><a class="on" href="#top">About</a><a href="#research">Research</a></nav>
+</div></header>
+
+<div class="wrap layout gutter" id="top">
+  <aside aria-label="Profile">
+    <img class="photo" src="assets/img/prof_pic.jpg" alt="Portrait of Ellie Epp" width="168" height="168">
+    <div>
+      <h2>Ellie Epp</h2>
+      <p class="role">Researcher · AI alignment, accessibility &amp; HCI</p>
+      <p class="role" style="margin-top:-8px">AI4ALL Ignite 2026 cohort</p>
+      <ul class="links">
+                <li><a href="https://scholar.google.com/citations?user=as2WRyMAAAAJ&amp;hl=en">Google Scholar</a></li>
+        <li><a href="https://www.semanticscholar.org/search?q=Elizabeth%20Hannan">Semantic Scholar</a></li>
+        <li><a href="https://github.com/elizabethhannan">GitHub</a></li>
+        <li><a href="https://tinyurl.com/LinkedinEHannan">LinkedIn</a></li>
+        <li><a href="https://tinyurl.com/EHannanOnePage">CV</a></li>
+        <li><a href="https://calendar.app.google/kgNqQJbf9xamFJ4f7">Book a time</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <main>
+    <div class="thesis"><div class="thumb thesis-icon" role="img" aria-label="Collision icon: a person and an agent meeting"><svg viewBox="0 0 48 48" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="26" r="9"/><path d="M33 15l9 11-9 11-9-11z"/><path d="M24 12v-5M19 13l-2-4M29 13l2-4"/><path d="M24 40v4M19.5 39l-2 3.5M28.5 39l2 3.5"/><circle cx="24" cy="26" r="1.8" fill="currentColor"/></svg></div><p class="lede">I study how large language models fail once they leave the benchmark — in the interfaces, user populations, and deployment contexts that surround them, where HXO and AXO experiences collide.</p></div>
+    <ul class="focus">
+      <li><strong>Sycophancy by design:</strong> how interface patterns amplify model agreement and train users to accept unsafe outputs.</li>
+      <li><strong>Accessible alignment:</strong> whether safety guardrails hold across Deaf, DeafBlind, and AAC communication modalities.</li>
+      <li><strong>Regulated domains:</strong> how LLMs validate greenwashing and expose prompt-injection risk in ESG disclosure.</li>
+    </ul>
+
+    
+    <details class="sec" id="about-me" open>
+      <summary><span class="sec-title">About Me</span><span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary>
+      <div class="sec-body"><p>I'm an undergraduate in Business Leadership at NYU SPS, with an A.A.S. in Sustainability from Rio Salado Community College and a Bachelor's in AI/ML in progress. I'm a Nina Mason Pulliam Scholar and a member of the AI4ALL Ignite 2026 cohort, where I co-authored a machine-learning study on predicting mild cognitive impairment in older adults with type 2 diabetes.</p>
+    <p>Before research I worked as a product engineer and a software engineer, with 15+ years in human-computer interaction and 11+ years as a founder — leading interaction design, building AI agents at scale, and taking a company through acquisition.</p>
+    <p class="mantra">Every system I research and build is evaluated through one question: does this help or hurt the full spectrum of human experience?</p>
+      </div>
+    </details>
+
+    <details class="sec" id="methodology">
+      <summary><span class="sec-title">Methodology: HXO and AXO <span class="label">ver 2.0</span></span><span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary>
+      <div class="sec-body"><p>My research and builds run on two paired frameworks. <strong>HXO (Human Experience Optimization)</strong> measures what a system does to the people using it. <strong>AXO (Agent Experience Optimization)</strong> measures how the agents in that system behave, coordinate, and fail. Together they make up my multi-agent experience framework.</p>
+    <ul class="focus">
+      <li><strong>Define the population first.</strong> Every study names who is affected (Deaf and DeafBlind users, AAC users, early-career disabled workers, job applicants) before it names a model or a metric.</li>
+      <li><strong>Test conditions, not single prompts.</strong> Each study crosses a fixed prompt corpus with interface or deployment conditions, such as 60 prompts × 6 conditions = 360 prompt–condition pairs in the sycophancy work.</li>
+      <li><strong>Score both sides.</strong> HXO scores the human outcome (harm, exclusion, trust miscalibration). AXO scores the agent outcome (agreement drift, guardrail failure, hand-off errors between agents).</li>
+      <li><strong>Validate across models.</strong> Findings must hold on more than one model or method before they are reported, as in the hiring study's two-model validation.</li>
+      <li><strong>Ripcord (AXO): audit intervention.</strong> Every harness carries a stop rule that is written before the first run. The ripcord pulls on any one of three triggers: a single severe-harm output, a harm rate above 2% in any condition, or a gap of 10 percentage points or more between any user population and the baseline. The run halts and a two-person review follows. Each failing case is read by hand and tagged with a root cause (model, interface, or data), then either fixed and re-run or documented as a known limit. Nothing ships until both reviewers sign off, which keeps humans governing the system itself, not only the report about it.</li>
+      <li><strong>Built for scale.</strong> The frameworks come from building and maintaining AI agents in production and leading a team of 50+, so each evaluation is written as a repeatable harness that can run across products and model versions rather than as a one-off test.</li>
+    </ul>
+      </div>
+    </details>
+
+    <details class="sec" id="selected-papers" open>
+      <summary><span class="sec-title">Selected Papers</span><span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary>
+      <div class="sec-body"><ul class="pubs">
+      <li class="pub">
+        <div class="thumb" role="img" aria-label="Hiring funnel icon"><svg viewBox="0 0 48 48" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 10h32l-12 14v12l-8 4V24z"/><circle cx="14" cy="6" r="1.6" fill="currentColor"/><circle cx="24" cy="6" r="1.6" fill="currentColor"/><circle cx="34" cy="6" r="1.6" fill="currentColor"/><circle cx="24" cy="44" r="1.6" fill="currentColor"/></svg></div>
+        <div>
+          <div class="t">Who Builds the Next Frontier: How Gender Gaps Compound from Résumé Parse to Offer in Frontier AI Hiring, and into the Teams That Train Frontier Models</div>
+          <div class="a"><strong>Ellie Epp</strong></div>
+          <div class="v">Working paper, 2026 · Hiring data Apr–Sep 2026 (Dewey), validated across two ML models</div>
+          <p style="margin:6px 0 0;font-size:.93rem">Measures the real-world output of human hiring at frontier AI companies: the probability of an offer for women versus men, and how small stage-level gaps in a Greenhouse ATS pipeline compound into a larger gap at the offer.</p>
+          <p style="margin:6px 0 0;font-size:.93rem">Then follows the long-term effect: the people hired today train, evaluate, and set policy for the next generation of frontier models, so a hiring gap can compound into the models themselves.</p>
+          <div class="tags"><span class="tag">Economics &amp; Policy</span><span class="tag">AI Safety &amp; Security</span><span class="tag grey">EEO</span><span class="tag grey">AI Biases</span><span class="tag grey">Cumulative bias</span><span class="tag grey">Frontier model impact</span><span class="tag grey">ATS Hiring</span><span class="tag wip">In progress</span></div>
+          <div class="plinks"><a href="https://tinyurl.com/EHannanAnthropicDisparity">Dashboard</a><a href="https://github.com/elizabethhannan">Code</a></div>
+        </div>
+      </li>
+      <li class="pub">
+        <div class="thumb" role="img" aria-label="Speech bubble with checkmark icon"><svg viewBox="0 0 48 48" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12h32v20H22l-8 7v-7H8z"/><path d="M17 22l5 5 9-10"/></svg></div>
+        <div>
+          <div class="t">Sycophancy by Design: How LLM Interface Patterns Train Users to Accept Unsafe AI Outputs</div>
+          <div class="a"><strong>Ellie Epp</strong></div>
+          <div class="v">Preprint, 2026</div>
+          <div class="tags"><span class="tag">AI Safety &amp; Security</span><span class="tag">AI Safety</span><span class="tag">HCI</span></div>
+          <div class="plinks"><a href="https://tinyurl.com/EHannanResearchPublications">Paper</a><a href="https://github.com/elizabethhannan">Code</a></div>
+        </div>
+      </li>
+      <li class="pub">
+        <div class="thumb" role="img" aria-label="Leaf icon"><svg viewBox="0 0 48 48" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M38 8C20 8 10 18 10 30c0 4 2 8 2 8s4 2 8 2c12 0 18-12 18-32z"/><path d="M12 38c6-8 12-14 20-20"/></svg></div>
+        <div>
+          <div class="t">Sycophancy in Sustainability: LLMs Validating Greenwashing Across TCFD, CSRD, and SEC Climate Disclosures</div>
+          <div class="a"><strong>Ellie Epp</strong></div>
+          <div class="v">Preprint, 2026</div>
+          <div class="tags"><span class="tag">AI Safety &amp; Security</span><span class="tag">Economics &amp; Policy</span><span class="tag">AI Safety</span><span class="tag">ESG</span></div>
+          <div class="plinks"><a href="https://tinyurl.com/EHannanResearchPublications">Paper</a><a href="https://github.com/elizabethhannan">Code</a></div>
+        </div>
+      </li>
+      <li class="pub">
+        <div class="thumb" role="img" aria-label="Brain icon"><svg viewBox="0 0 48 48" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10a7 7 0 0 0-7 7 6 6 0 0 0-3 11 6 6 0 0 0 5 9 6 6 0 0 0 11 1V12a6 6 0 0 0-6-2z"/><path d="M30 10a7 7 0 0 1 7 7 6 6 0 0 1 3 11 6 6 0 0 1-5 9 6 6 0 0 1-11 1"/><path d="M24 18h4M20 26h-4M28 30h4"/></svg></div>
+        <div>
+          <div class="t">Predicting Mild Cognitive Impairment in Older Adults with Type 2 Diabetes</div>
+          <div class="a"><strong>Ellie Epp</strong>, Agastyya Kala</div>
+          <div class="v">AI4ALL Ignite, 2026</div>
+          <div class="tags"><span class="tag">STEM</span><span class="tag">Health ML</span></div>
+          <div class="plinks"><a href="https://elizabethhannan.github.io/Ai4ALL-Diabetes-Poster-Ver1A/">Poster</a></div>
+        </div>
+      </li>
+    </ul>
+      </div>
+    </details>
+
+    <details class="sec" id="projects">
+      <summary><span class="sec-title">Projects</span><span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary>
+      <div class="sec-body"><ul class="all">
+      <li><div class="t"><a href="https://tinyurl.com/FeedAFriendAgent">Feed-A-Friend</a></div><div class="a">Founder. An AI-driven micro-philanthropy platform that bridges the gap between a SNAP application and its approval with direct food help, so no person or pet goes hungry in the meantime. Early stage; 501(c)(3) in progress.</div></li>
+      <li><div class="t"><a href="https://wkiva-demo-1-e.vercel.app/">Transparent ESG Algorithm</a></div><div class="a">Carbon-intelligence prototype for Scope 1–3 tracking aligned to CSRD, ISSB, SEC, and California SB 253.</div></li>
+      <li><div class="t">Tactile vision interface</div><div class="a">Software for a dot-matrix tactile device that renders visual scenes as raised dots for blind users.</div></li>
+    </ul>
+      </div>
+    </details>
+
+    <details class="sec" id="research">
+      <summary><span class="sec-title">All Research <span class="label">· research.html</span></span><span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary>
+      <div class="sec-body"><ul class="all">
+      <li><div class="t">Who Builds the Next Frontier: How Gender Gaps Compound from Résumé Parse to Offer in Frontier AI Hiring, and into the Teams That Train Frontier Models</div><div class="a"><strong>Ellie Epp</strong> · Working paper, 2026 <span class="tag wip">In progress</span> <span class="tag">Economics &amp; Policy</span><span class="tag">AI Safety &amp; Security</span></div></li>
+      <li><div class="t">Sycophancy by Design</div><div class="a"><strong>Ellie Epp</strong> · Preprint, 2026 <span class="tag">AI Safety &amp; Security</span></div></li>
+      <li><div class="t">Sycophancy in Sustainability</div><div class="a"><strong>Ellie Epp</strong> · Preprint, 2026 <span class="tag">AI Safety &amp; Security</span><span class="tag">Economics &amp; Policy</span></div></li>
+      <li><div class="t">Predicting Mild Cognitive Impairment in Older Adults with Type 2 Diabetes</div><div class="a"><strong>Ellie Epp</strong>, Agastyya Kala · AI4ALL Ignite, 2026 <span class="tag">STEM</span></div></li>
+      <li><div class="t">Stranded Capital: Measuring the Economic Cost of AI Accessibility Exclusion</div><div class="a"><strong>Ellie Epp</strong> · Working paper, 2026 <span class="tag wip">In progress</span> <span class="tag">Economics &amp; Policy</span></div></li>
+      <li><div class="t">The Adoption Cliff: Early-Career Disabled Workers and AI Skill Formation</div><div class="a"><strong>Ellie Epp</strong> · Working paper, 2026 <span class="tag wip">In progress</span> <span class="tag">Economics &amp; Policy</span></div></li>
+      <li><div class="t">Accessible Alignment: Do LLM Safety Guardrails Hold Across Deaf, DeafBlind, and AAC Modalities?</div><div class="a"><strong>Ellie Epp</strong> <span class="tag wip">Forthcoming</span> <span class="tag">AI Safety &amp; Security</span></div></li>
+      <li><div class="t">Prompt Injection in ESG Reporting: Red Teaming LLM-Assisted Disclosure Tools</div><div class="a"><strong>Ellie Epp</strong> <span class="tag wip">Forthcoming</span> <span class="tag">AI Safety &amp; Security</span></div></li>
+    </ul>
+      </div>
+    </details>
+
+    <details class="sec" id="community-research">
+      <summary><span class="sec-title">Community Research <span class="label">· Phi Theta Kappa Honors in Action</span></span><span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary>
+      <div class="sec-body"><ul class="all">
+      <li><div class="t">Deaf and DeafBlind Accessibility</div><div class="a">Alpha Theta Omicron chapter team, Rio Salado Community College · Research question scored nationally (97th percentile); produced Braille books and podcasts with the Deaf &amp; DeafBlind Society of Arizona</div><div class="tags"><span class="tag">Accessibility</span><span class="tag">Community Research</span></div></li>
+      <li><div class="t">Trees, Shade, and Tree Equity</div><div class="a">Project lead as chapter VP · Rio Salado Community College · Tied to the chapter's tree-planting initiative</div><div class="tags"><span class="tag">Sustainability</span><span class="tag">Community Research</span><span class="tag wip">In progress</span></div></li>
+    </ul>
+      </div>
+    </details>
+  </main>
+</div>
+
+<footer class="gutter">© 2026 Ellie Epp · Hosted on GitHub Pages</footer>
+
+<script src="assets/site.js"></script>
+<!-- Background: Thought forming. To switch to the dot network, replace the next line with
+     <script src="assets/living-bg.js"></script> and remove the data-* attributes from the canvas. -->
+<script src="assets/thought-bg.js"></script>
+</body>
+</html>
