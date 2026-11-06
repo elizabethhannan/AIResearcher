@@ -101,3 +101,4 @@ footer{border-top:1px solid var(--rule);padding-block:24px;color:var(--muted);fo
 .subhead{font-family:var(--body);font-size:.78rem;font-weight:400;letter-spacing:.1em;text-transform:uppercase;color:var(--accent-2);margin:18px 0 8px}
 .subhead:first-child{margin-top:4px}
 .sec-title .label{display:block;margin-top:2px;line-height:1.4}
+.builder-note{font-size:.92rem;color:var(--muted);font-style:italic;border-left:2px solid var(--rule);padding:2px 0 2px 14px;margin:4px 0 16px}
